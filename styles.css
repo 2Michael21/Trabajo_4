@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Establece la altura del cuerpo para que cubra toda la ventana del navegador */
+    margin: 0;
+}
+.card{
+    width: 500px; /* Ancho del cuadro */
+    height: 500px; /* Altura del cuadro */
+    background-color: #7f7f7f; /* Color de fondo del cuadro */
+    margin: 0 auto; /* Esto centra el cuadro horizontalmente */
+    display: flex;
+    align-items: top;
+    flex-direction: column;
+    text-align: center;
+    border: 5px solid #080505;
+    border-radius: 15%;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.result {
+    font-weight: bold;
+}
+form{
+    display: block;
+    margin-top: 20px;
+}
